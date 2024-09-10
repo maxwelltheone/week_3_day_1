@@ -50,25 +50,45 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 16 #integer variable
 # 2. name
+name = "Pedro" #string variable
 # 3. song
+song = "Blizzard" #string variable
 # 4. food
+food = "Fries" #string variable
 # 5. number
+number = 1000 #integer variable
 
+teammate = "Adrian" #string variable
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
-
-
+#concantation --- + around your variables
+#print("Once upon a time, there was a " + str(age) + " year old coder named " + name + ".")
+#print("There was a number " + str(number) + " as well")
+#put the age and number in a new sentence
+#print("He was " + str(age) + " and his lucky number is " + str(number) + ".")
+date_of_birth = 2021
+number2 = 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
+#create a sentence of all of the above :trollface:
+#print("The year is " + str(date_of_birth) + " even though it's not. Anyways, here's some numbers. " + str(number2) + " and " + str(number3) + " and "+ str(number4) + " and "+ str(number5) + ".")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+#print(f"the date of birth is {date_of_birth} and the number is
+      #{number2} and the number is {number3} and the number is
+      #{number4}and the number is {number5}")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
 
-
+print(f"Once upon a time, there was a {age} old coder named {name}.")
+print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammate {teammate} would throw {food} until {name} would stop singing.")
+print(f"Still, {name} was the best coder on the team and could write about {number} lines of code every day, double the code {teammate} could do. Maybe {song} was {name}'s secret power?")
 
 
 
