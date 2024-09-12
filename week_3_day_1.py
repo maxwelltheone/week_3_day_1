@@ -52,15 +52,15 @@
 # 1. age
 age = 16 #integer variable
 # 2. name
-name = "Pedro" #string variable
+name = "Maxwell" #string variable
 # 3. song
 song = "Blizzard" #string variable
 # 4. food
-food = "Fries" #string variable
+food = "fries" #string variable
 # 5. number
 number = 1000 #integer variable
 
-teammate = "Adrian" #string variable
+teammate = "Pancho" #string variable
 
 # #now include the variables you just made print in the following...
 
