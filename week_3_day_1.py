@@ -122,21 +122,23 @@ print(f"Still, {name} was the best coder on the team and could write about {numb
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# firstName
+# lastName
+# emailAddress
+# percent
+# variableName
+# Zero
+# list #this is a reserved word in python
+#(you can't use it for yourself)
+
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
-# The first name of a person
-# The last name of a person
-# The email address of a person
-# The percentage of marks obtained by a student
-# A variable to store the number of items in a shopping cart
+# The first name of a person = firstName
+# The last name of a person lastName
+# The email address of a person = emailAddress
+# The percentage of marks obtained by a student = percent
+# A variable to store the number of items in a shopping cart = store
 
 
 
@@ -144,15 +146,15 @@ print(f"Still, {name} was the best coder on the team and could write about {numb
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 
-# first_name
-# lastName
-# email_address
-# percentage
-# variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# first_name = valid
+# lastName = valid
+# email_address = valid
+# percentage = valid
+# variable_name = valid
+# 1_variable = invalid
+# email@address = invalid
+# percentage% = invalid
+# i = invalid
 
 
 
