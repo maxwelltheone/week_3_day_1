@@ -189,19 +189,39 @@ print(f"Still, {name} was the best coder on the team and could write about {numb
 
 ##########################################################################################
 # #addition
+#print (2+1)
 # #multiplication
+#print(2*2)
 # #division
+#print(6/2)
 # #modulo
+#print(7%4) #remainder of 7/4
 # #powers
+#print(5**3) # 5 to the power of 3
 # #get the max and min of a number
+#print("The max of 2 and 3 is",max (2,3))
+#Max means the highest number
+#print("The min of 2 and 3 is",min (2,3))
+# Min means the lowest number
+
 # #round a number
+#print("Round 3.9 is",round(3.9))
 # # absolute value
+#print("The absolute value of -3 is",abs(-3))
+# absolute value is the distance from zero; thus, it will always be positive.
 # # order of operations
+#print("2 + 10 * 10 + 3 is",2 + 10 * 10 + 3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *
 # #this goes out and grabs some different math functions we can use
 # #floor method
+#print("The floor of 3.7 is",floor(3.7))
+#Floor means round down
+#print("The floor of 9.5 is",floor(9.5))
 # #ceil method
+#print("The ceil of 3.7 is",ceil(3.7))
+#ceil means round up
+#print("The ceil of 4.3 is",ceil(4.3))
 # #sqrt method
 
 
@@ -222,27 +242,47 @@ print(f"Still, {name} was the best coder on the team and could write about {numb
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+#name = input("what is your name?")
+#print("Hello,", name)
 # # basic math calculator
 # #ask the user for 2 numbers
+#num1 = int(input("Enter in a number:"))
+#num2 = int(input("Enter in another number:"))
 # # print out a statement where you:
 # # add them together
+#print(num1+num2)
 # #multiply
+#print(num1*num2)
 # # find the max number
+#print(max(num1,num2))
 # # find the remainder of the numbers
+#print(num1%num2)
 # #round one number
-
-
-
-
-
+#print(round(num1))
 
 
 
 ##########################################################################################
+# CALCULATOR APP WOOHOO #
+
+num1 = int(input("Enter in a number:"))
+num2 = int(input("Enter in another number:"))
+print(num1-num2)
+print(num1/num2)
+print(min(num1,num2))
+print("The absolute value of your first number is",abs(num1))
+print("The floor of your first number is",floor(num1))
+print("The ceil of your second number is",ceil(num2))
+print("The square root of your first number is",sqrt(num1))
+
+##########################################################################################
 # # mad libs game
-# print("Roses are {color}")
-# print("{plural noun} are blue")
-# print("I love {celebrity}")
+color = input("Enter a color.")
+plural_noun = input("Enter a plural noun:")
+celebrity = input("Enter a celebrity:")
+print("Roses are", color)
+print(plural_noun "aren't blue")
+print("I love", celebrity)
 # # On to codehs.com
 
 
